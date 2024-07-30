@@ -539,6 +539,32 @@ margin-right: 50px;
   width:136px ;
   border-radius: 20px;
 }
+.loader {
+  position: absolute;
+  top: 2984px;
+  left: 860px;
+  width: 40px;
+  height: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader .dot {
+  width: 13px;
+  height: 13px;
+  background-color: #D9D9D9;
+  border-radius: 50%;
+}
+
+.loader .dot:nth-child(2) {
+  margin: 0 2px;
+}
+
+.loader .dot:nth-child(3) {
+  margin: 0 2px;
+}
+
 
 
 /*  */
@@ -549,6 +575,7 @@ margin-right: 50px;
   background-color: #3F3F3F;
   border: 1px solid #FFBA36;
   margin-left: 10px;
+  margin-right: 80px;
   gap: 2px;
 }
 .test-1>h3{
