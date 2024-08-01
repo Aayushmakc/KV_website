@@ -64,10 +64,11 @@ nav {
   transition: color 0.3s ease;
 }
 
-
 .nav-links a:hover {
   border-bottom-color:blue;
 }
+
+
 .container-contact .contact-us {
   width: 153px;
   height: 39px;
@@ -80,7 +81,8 @@ nav {
   font-size: 18px; 
   font-weight: bold; 
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; 
-  border-bottom: 2px solid transparent;
+  border-bottom: 2px solid transparent; 
+  margin-left: 250px;
  
 }
 
