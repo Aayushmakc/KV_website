@@ -5,62 +5,65 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kv Business and Management Consultancy</title>
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<!-- Font-awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
+<!-- Bootstrap-link -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<!-- Custom css -->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="main">
+  <!-- -----Nav Bar--- -->
     <nav>
       <div class="logo">
         <img src="assets/images/background_83.png" alt="Logo">
       </div>
-      <div class="nav-links">
-        <ul>
+        <ul class="nav-links">
           <li><a href="#home" class="nav-link">Home</a></li>
           <li><a href="#why-us" class="nav-link">Why Us</a></li>
           <li><a href="#services" class="nav-link">Services</a></li>
           <li><a href="#testimonals" class="nav-link">Testimonials</a></li>
           <li><a href="#about" class="nav-link">About</a></li>
-          <div class="container-contact">
-            <a href="#contact" class="contact-us">Contact Us</a>
-          </div>
+          
         </ul>
+      <div class="container-contact">
+        <a href="#contact" class="contact-us">Contact Us</a>
       </div>
     </nav>
-    <div id="home" class="hero">
-      <div class="hero-container">
+   <!-- -----Home Container---- -->
+    <div class="hero-container">
         <div class="hero-text">
-          <p>Empowering Your<br><span class="text">Business To</span><span class="highlight">Succeed</span></p>
-          <button class="contact-btn"><a href="#">Contact Us</a></button>
-          <button class="explore-btn"><a href="#">Explore Our Services</a></button>
+          <p>Empowering Your Business To<span class="highlight"> Succeed</span></p>
+          <div class="buttons-wrapper">
+            <button class="contact-btn"><a href="#">Contact Us</a></button>
+            <button class="explore-btn"><a href="#">Explore Our Services</a></button>
+          </div>
         </div>
-      </div>
+        <div class="banner-images">
+          <div class=" one"><img class="one" src="assets/images/rectangle_52.jpeg" alt="">
+          </div>
+          <div class="two"><img src="assets/images/rectangle_51.jpeg" alt="">
+          </div>
+          <div class=" three"> <img src="assets/images/rectangle_35.jpeg" alt="">
+          </div>
+          <div class=" four"><img src="assets/images/rectangle_29.png" alt="">
+          </div>
+        </div>
     </div>
-    <div class="container">
-      <div class=" one"><img src="assets/images/rectangle_52.jpeg" alt="">
-      </div>
-      <div class="two"><img src="assets/images/rectangle_51.jpeg" alt="">
-      </div>
-      <div class=" three"> <img src="assets/images/rectangle_35.jpeg" alt="">
-      </div>
-      <div class=" four"><img src="assets/images/rectangle_29.png" alt="">
-      </div>
-    </div>
-    
-  </div>
-  </div>
+
+<!--WHY US---->
   <div id="why-us" class="heading">
-    <h3>Grow Your Business With Tailored Strategies</h3>
-
+    <h3>Grow Your Business With Tailored Strategies.</h3>
   </div>
 
-  <div class="second">
-    <div class="sec-item1">
+  <div class="header-text">
       <div class="content">
         <h1>Why choose us</h1>
         <p>At KV, We offer a team of seasoned professionals with extensive industry expertise, delivering customized solutions tailored to your business needs. We pride ourselves on proven results that drive growth and profitability, a client-centric approach that prioritizes your success, and comprehensive services ranging from strategic planning to marketing solutions, all conducted with the highest level of integrity and professionalism</p>
@@ -68,221 +71,107 @@
       <div class="img">
         <img src="assets/images/image_1.png">
       </div>
-
-
-
-
+  </div> 
+    <div class="cards ">
+       <div class="card" style="width: 18rem; height: 300px;">
+            <img src="assets/images/rectangle_10.jpeg" class="card-img-top" alt="...">
+           <div class="card-body">
+              <button class="Primary-btn">Expertise</button>
+           </div>
+      </div>
+    <div class="card" style="width: 18rem; height: 300px;">
+        <img src="assets/images/rectangle_13.png" class="card-img-top" alt="...">
+       <div class="card-body">
+        <a href="#" class="Primary-btn">Customized Solution</a>
+      </div>
     </div>
-
-    <div class="ser">
-      <div class="card">
-        <div class=" box">
-
-          <img
-            src="assets/images/rectangle_10.jpeg"
-            alt="">
-        </div>
-        <div class="btn">
-          <button>Expertise</button>
-        </div>
+    <div class="card" style="width: 18rem ;height: 300px;">
+        <img src="assets/images/rectangle_16.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <a href="#" class="Primary-btn">Proven Result</a>
       </div>
-
-      <div class="card">
-        <div class=" box">
-
-          <img
-            src="assets/images/rectangle_13.png"
-            alt="">
-        </div>
-        <div class="btn">
-          <button>Customized Solution</button>
-        </div>
-      </div>
-
-
-      <div class="card">
-        <div class=" box">
-
-          <img
-            src="assets/images/rectangle_16.png"
-            alt="">
-
-        </div>
-        <div class="btn">
-          <button>Proven Results</button>
-        </div>
-      </div>
-
     </div>
-
   </div>
 
 
   <!-- OUR SERVICES STARTS HERE -->
-  <div id="services" class="head">
+  <div class="head">
     <h3>Our Services</h3>
   </div>
-
-
-  <div class="services">
-    <div class="head2">
-
-      <div class="c1">
-        <div class=" box"><img
-            src="assets/images/rectangle_52.jpeg"
-            alt="">
-        </div>
-
-        <div class="btn">
-          <button>Mystery Shopper Services</button>
-        </div>
-
-        <div class="para">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit  Mauris tempor gravida justo non auctor.
-        </div>
-
-      </div>
-
-
-      <div class="c1">
-        <div class=" box"><img
-            src="assets/images/rectangle_29.png">
-        </div>
-
-        <div class="btn">
-          <button class="btn-large" >Hospitality Performance and Management Consulting</button>
-        </div>
-        <div class="para">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit  Mauris
-        </div>
-
-
-      </div>
-
-
-      <div class="c1">
-        <div class=" box"><img
-            src="assets/images/rectangle_35.jpeg"
-            alt="">
-        </div>
-
-        <div class="btn">
-          <button>Business Consulting</button>
-        </div>
-        <div class="para">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit  Mauris tempor gravida justo non auctor.
-        </div>
-
-
-      </div>
-
-
-
-      <div class="c1">
-        <div class=" box"><img
-            src="assets/images/rectangle_51.jpeg"
-            alt="">
-        </div>
-
-        <div class="btn">
-          <button class="btn-lrg">Business Setup and Market Research</button>
-        </div>
-        <div class="para">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit  Mauris
-        </div>
-
-
-      </div>
-
-
-
+  <div class="Our-services-cards">
+    <div class="service-card-1">
+  <div class="card-second" style="width: 16rem;height: 300px">
+    <img src="assets/images/rectangle_52.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <button class="Primary-btn-2">Shopper Services</button>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit  Mauris tempor gravida justo non auctor.</p>
     </div>
-
-
-    <div class="head2">
-      <div class="c1">
-        <div class=" box"><img
-            src="assets/images/rectangle_29.png"
-            alt="">
-        </div>
-
-        <div class="btn">
-          <button>Research and Development</button>
-        </div>
-        <div class="para">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit  Mauris tempor gravida justo non auctor
-        </div>
-
-
-      </div>
-
-
-      <div class="c1">
-        <div class=" box"><img
-            src="assets/images/rectangle_52.jpeg"
-            alt="">
-        </div>
-
-        <div class="btn">
-          <button>Business Proposal Crafting</button>
-        </div>
-        <div class="para">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit  Mauris tempor gravida justo non auctor.
-        </div>
-
-
-      </div>
-
-
-      <div class="c1">
-        <div class=" box"><img
-            src="assets/images/rectangle_51.jpeg"
-            alt="">
-        </div>
-
-        <div class="btn">
-          <button>Event Management</button>
-        </div>
-        <div class="para">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit  Mauris tempor gravida justo non auctor.
-        </div>
-
-
-      </div>
-
-
-      <div class="c1">
-        <div class=" box">
-          <img
-            src="assets/images/rectangle_51.jpeg"
-            alt="">
-        </div>
-
-        <div class="btn">
-          <button>IT Consulting</button>
-        </div>
-        <div class="para">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit  Mauris tempor gravida justo non auctor.
-        </div>
-
-
-      </div>
-
-
-    </div>
-
   </div>
+  <div class="card-second" style="width: 16rem;height: 300px">
+    <img src="assets/images/rectangle_29.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <button class="btn-large">Hopitality Performance and Management Consulting</button>
+      <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit  Mauris.</p>
+      
+    </div>
+  </div>
+  <div class="card-second" style="width: 16rem;height: 300px">
+    <img src="assets/images/rectangle_35.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <button class="Primary-btn-2">Business Consulting</button>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit  Mauris tempor gravida justo non auctor.</p>
+      
+    </div>
+  </div>
+  <div class="card-second" style="width: 16rem;height: 300px">
+    <img src="assets/images/rectangle_51.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <button class="btn-large">Business Setup and Market Research</button>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit  Mauris.</p>
+     
+    </div>
+  </div>
+</div>
+<div class="service-card-2">
+  <div class="card-second" style="width: 16rem;height: 300px">
+    <img src="assets/images/rectangle_29.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <button class="Primary-btn-2">Research and Development</button>
+      <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit  Mauris tempor gravida justo non auctor</p>
+  
+    </div>
+  </div>
+  <div class="card-second" style="width: 16rem;height: 300px">
+    <img src="assets/images/rectangle_52.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <button class="Primary-btn-2">Business Proposal Crafting</button>
+      <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit  Mauris tempor gravida justo non auctor</p>
+  
+    </div>
+  </div>
+  <div class="card-second" style="width: 16rem;height: 300px">
+    <img src="assets/images/rectangle_51.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <button class="Primary-btn-2">Event Management</button>
+      <p class="card-text">  Lorem ipsum dolor sit amet, consectetur adipiscing elit  Mauris tempor gravida justo non auctor.</p>
+      
+    </div>
+  </div>
+  <div class="card-second" style="width: 16rem;height: 300px">
+    <img src="assets/images/rectangle_51.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <button class="Primary-btn-2">IT consulting</button>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit  Mauris tempor gravida justo non auctor.</p>
+  
+    </div>
+  </div>
+</div>
+</div>
 
   <!-- TESTIMONALS STARTS FROM HERE -->
-
-  <div  id="testimonals" class="testimonals">
-      <div class="test">
-        <div class="test-1">
-          <h3>Testimonials</h3>
-        </div>
-        <div class="test-2">
-          <p>At KV, We offer a team of seasoned professionals with extensive industry expertise, delivering customized solutions tailored to your business needs. We pride ourselves on proven results that drive growth and profitability, a client-centric approach that prioritizes your success, and comprehensive services ranging from strategic planning to marketing solutions, all conducted with the highest level of integrity and professionalism.</p>
-        </div>
+      <div class="testimonals">
+          <h1>Testimonials</h1>
+          <p>At KV, We offer a team of seasoned professionals with extensive industry expertise, delivering customized solutions tailored to your business needs. We pride ourselves on proven results that drive growth and profitability, a client-centric approach that prioritizes your success, and comprehensive services ranging from strategic planning to marketing solutions, all conducted with the highest level of integrity and professionalism.</p>        
       </div>
     <!-- ------------------------------ -->
 
@@ -319,44 +208,40 @@
 
         </div>
     </div>
+
     <div class="loader">
       <div class="dot"></div>
       <div class="dot"></div>
       <div class="dot"></div>
   </div>
 
-  </div>
-
-
   <!-- ABOUT US -->
- <div id="about" class="ab">
-  <h1>About Us</h1>
- </div>
-
-  <div class="abt">
+  <div class="ab">
     <div class="about-us">
-      
+      <h1>About Us</h1>
+     
       <p>At KV, We offer a team of seasoned professionals with extensive industry expertise, delivering customized solutions tailored to your business needs. We pride ourselves on proven results that drive growth and profitability, a client-centric approach that prioritizes your success, and comprehensive services ranging from strategic planning to marketing solutions, all conducted with the highest level of 
-        integrity and professionalism.</p><br><br> <p>At KV, We offer a team of seasoned professionals with extensive industry expertise, delivering customized solutions tailored to your business needs. We pride ourselves on proven results that drive growth and profitability, a client-centric approach that prioritizes your success, and comprehensive services ranging from strategic planning to marketing solutions, all conducted with the highest level of 
-          integrity and professionalism.</p>
-
-      
+      integrity and professionalism. <br><br><br> At KV, We offer a team of seasoned professionals with extensive industry expertise, delivering customized solutions tailored to your business needs. We pride ourselves on proven results that drive growth and profitability, a client-centric approach that prioritizes your success, and comprehensive services ranging from strategic planning to marketing solutions, all conducted with the highest level of 
+        integrity and professionalism.</p>
+ 
+    
       <button class="about-btn">
       Let's talk
       </button> 
     </div>
+
+    
     <div class="kv-logo">
       <img src="assets/images/background_83.png" alt="" srcset="">
-
     </div>
   </div>
-  <div  id="contact"class="cn">
-    <h1>Contact Us</h1>
-   </div>
-  
+
+
+
+  <!-- Contact Starts -->
     <div class="cnt">
       <div class="contact-us">
-        
+        <h1>Contact Us</h1>
         <p>At KV, We offer a team of seasoned professionals with extensive industry expertise, delivering customized solutions tailored to your business needs. We pride ourselves on proven results that drive growth and profitability, a client-centric approach that prioritizes your success, and comprehensive services ranging from strategic planning to marketing solutions, all conducted with the highest level of 
           integrity and professionalism.</p>
   
@@ -368,18 +253,23 @@
           <input name="email" type="email" class="form-control" placeholder="Email" required></input><br>
           <input name="phone" type="tel" class="form-control" placeholder="Phone Number" required><br>
           <input name="message" class="form-control" placeholder="Message" rows="4" required></input><br>
+          <div class="button-wrap">
           <button class="sub-btn" >Submit</button>
+        </div>
         </form>
       </div>
-      </div>
+    </div>
+      <!-- Contact ends -->
+
+      <!-- Footer starts -->
       <footer>
         <div class="footer-content">
-          <div class="footer-image">
-            <img src="assets/images/background_83.png" alt="Company Logo">
-          </div>
           <div class="footer-info">
-            <h2>Key Ventures Business and<br> Management Consultancy</h2>
+            <img src="assets/images/background_83.png" alt="Company Logo">
+           <div class="footer-text">
+            <h3>Key Ventures Business and<br> Management Consultancy</h3><br>
             <p>Quisque eget condimentum<br> magna. Nulla facilisi.<br> Phasellus a bibendum diam.</p>
+           </div>
           </div>
           <div class="footer-left">
             <div class="services">
@@ -419,6 +309,7 @@
           </div>
         </div>
       </footer>
+      <!-- Footer Ends -->
 </body>
 
 </html>

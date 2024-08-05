@@ -18,3 +18,13 @@ window.addEventListener('scroll', function() {
     }
   });
 });
+// let navbar=document.querySelector('nav');
+
+// window.onscroll = function(){
+//   if(window.scroll >0 ){
+//     navbar.style.background='#eefff9';
+//   }
+//   else{
+//     navbar.style.background ='transparent';
+//   }
+// }
